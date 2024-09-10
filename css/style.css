@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.page-wrapper {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #30183f;
+  
+}
+/* .calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+ */
+/* .input[type="number"],
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  background-color: #ddd;
+  padding-left: 3;
+} */
+
+.img-container{
+  margin-left: 50rem;
+  max-height: 2rem;
+  max-width: 2rem;
+}
+.img{
+  height: 1rem;
+  width: 1rem;
+}
+
+
+
+
+.calculator {
+  max-width:70%;
+  display: grid;
+  grid-column: 2/3;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: end;
+  justify-content: space-around;
+}
+.income-wrapper {
+  display: grid;
+  grid-template-columns: 1/2;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+select {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 30px;
+  background-color: #f6f6f9;
+  border: none;
+}
+.input-box {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 30px;
+  background-color: #f6f6f9;
+  border: none;
+}
+.submit {
+  background-color: #e34b31;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+
+.box-wrapper{
+  border: 5px solid rgba(255, 255, 255, 0.134);
+  padding: 10px;
+  background-color: #f6f6f9;
+  max-width:100%;
+}
