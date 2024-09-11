@@ -77,12 +77,16 @@ select {
   padding: 1rem;
   margin: 1rem;
 }
-
+span{font-weight:800;}
 
 
 .box-wrapper{
-  border: 5px solid rgba(255, 255, 255, 0.134);
+  border: 5px solid rgba(255, 255, 255, 0.5);
   padding: 10px;
   background-color: #f6f6f9;
   max-width:100%;
 }
+/* .underline{
+  /* text-decoration:underline; */
+  /* text-decoration-color: rgba(255, 255, 255, 255) */
+} */
